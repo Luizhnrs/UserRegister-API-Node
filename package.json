@@ -1,0 +1,23 @@
+{
+  "name": "crud-userregister",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000C\u0000r\u0000u\u0000d\u0000-\u0000U\u0000s\u0000e\u0000r\u0000R\u0000e\u0000g\u0000i\u0000s\u0000t\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.8",
+    "prisma": "^5.8.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "@prisma/client": "^5.8.0",
+    "fastify": "^4.25.2",
+    "tsx": "^4.7.0"
+  }
+}
