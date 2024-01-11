@@ -17,3 +17,5 @@ export async function routes(fastify: FastifyInstance, option: FastifyPluginOpti
         return new ListUserController().handle(request, reply);	
     })
 }
+
+export default routes;
